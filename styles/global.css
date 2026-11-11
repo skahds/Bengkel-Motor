@@ -1,0 +1,30 @@
+/* global styling */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: aliceblue;
+    margin: 0px;
+}
+
+/* navbar */
+/* placed *outside* of header so that it can stick */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+    padding: 20px 40px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
