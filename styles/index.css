@@ -11,8 +11,8 @@ main {
     border-bottom: 1px solid gray;
 }
 
-.title h1 {
-    font-size: 40px;
+.title img {
+    width: 50%;
 }
 
 .title h2 {
