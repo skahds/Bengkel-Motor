@@ -18,8 +18,9 @@ body {
 
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     gap: 100px;
-    padding: 20px 40px;
+    padding: 5px 40px;
     background-color: white;
     border-bottom: 1px solid gray;
 }
@@ -27,4 +28,9 @@ body {
 .navbar a {
     text-decoration: none;
     color: black;
+}
+
+.navbar img {
+    width: 100px;
+    margin-right: auto;
 }

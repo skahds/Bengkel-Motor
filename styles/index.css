@@ -1,0 +1,39 @@
+main {
+    width: 40%;
+    margin: 20px auto;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+}
+
+.title img {
+    width: 50%;
+}
+
+.title h2 {
+    font-size: 25px;
+}
+
+.content {
+    line-height: 40px;
+}
+
+.content .content-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .content-img img {
+    width: 80%;
+    border-radius: 40px 40px;
+}
+
+.content h2 {
+    border-bottom: 1px dashed gray;
+}
