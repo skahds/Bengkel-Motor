@@ -23,3 +23,45 @@ main {
 .content {
     line-height: 40px;
 }
+
+.contact-form {
+    margin-top: 30px;
+}
+
+.contact-form h2 {
+    font-size: 25px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: aliceblue;
+}

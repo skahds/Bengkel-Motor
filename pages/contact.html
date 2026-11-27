@@ -33,6 +33,27 @@
                     <li>Davis: +628123456787</li>
                 </ul>
             </div>
+
+            <!-- contact form -->
+            <div class="contact-form">
+                <h2>Kirim Pesan</h2>
+
+                <form onsubmit="event.preventDefault()">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required />
+
+                    <label for="message">Pesan:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Tulis pesan Anda di sini"
+                        required
+                    ></textarea>
+
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
         </main>
     </body>
 </html>
