@@ -1,4 +1,4 @@
-main {
+/* main {
     width: 40%;
     margin: 20px auto;
 }
@@ -11,9 +11,7 @@ main {
     border-bottom: 1px solid gray;
 }
 
-.title img {
-    width: 50%;
-}
+
 
 .title h2 {
     font-size: 25px;
@@ -21,7 +19,7 @@ main {
 
 .content {
     line-height: 40px;
-}
+} */
 
 .content .content-img {
     display: flex;
