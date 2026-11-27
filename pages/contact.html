@@ -6,6 +6,7 @@
         <title>Kontak</title>
 
         <link rel="stylesheet" href="../styles/global.css" />
+        <link rel="stylesheet" href="../styles/contact.css" />
     </head>
     <body>
         <!-- navbar -->
@@ -18,5 +19,41 @@
             <a href="pricing.html">Harga dan Paket</a>
             <a href="contact.html" class="active">Kontak</a>
         </div>
+
+        <!-- main content -->
+        <main>
+            <div class="title">
+                <h1>Kontak</h1>
+                <h2>Anda dapat kontak kami dengan menelepon salah satu staff kami berikut ini:</h2>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>Stevan: +628123456789</li>
+                    <li>Wilbert: +628123456788</li>
+                    <li>Davis: +628123456787</li>
+                </ul>
+            </div>
+
+            <!-- contact form -->
+            <div class="contact-form">
+                <h2>Kirim Pesan</h2>
+
+                <form onsubmit="event.preventDefault()">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required />
+
+                    <label for="message">Pesan:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Tulis pesan Anda di sini"
+                        required
+                    ></textarea>
+
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
+        </main>
     </body>
 </html>
