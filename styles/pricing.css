@@ -1,0 +1,106 @@
+/* main content */
+main {
+    width: 70%;
+    margin: 30px auto;
+}
+
+/* pricing header */
+.pricing-header {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.pricing-header h1 {
+    font-size: 32px;
+}
+
+.pricing-header p {
+    line-height: 1.6;
+}
+
+/* pricing table */
+.pricing-section {
+    margin-top: 30px;
+}
+
+.pricing-section h2 {
+    font-size: 25px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.pricing-section table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.pricing-section th,
+.pricing-section td {
+    border: 1px solid gray;
+    padding: 12px;
+    text-align: center;
+}
+
+.pricing-section th {
+    background-color: rgb(255, 225, 215);
+    font-weight: bold;
+}
+
+.pricing-section td {
+    background-color: white;
+}
+
+/* pricing notes */
+.pricing-notes {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.pricing-notes h2 {
+    font-size: 25px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.pricing-notes ul {
+    line-height: 1.8;
+}
+
+/* responsive design */
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+    }
+
+    .pricing-section {
+        overflow-x: auto;
+    }
+
+    .pricing-section table {
+        min-width: 600px;
+    }
+}
+
+/* footer */
+
+.footer {
+    background-color: white;
+    border-top: 1px solid gray;
+    padding: 20px 40px;
+    margin-top: 40px;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+    margin-top: 10px;
+}
